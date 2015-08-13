@@ -9,10 +9,10 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
-gem 'sdoc', '~> 0.4.0',  
+gem 'sdoc', '~> 0.4.0'  
 
-group :development, :test do
-gem 'sqlite3'
+ group :development, :test do
+	gem 'sqlite3'
 end
 
 group :production do
@@ -20,6 +20,7 @@ group :production do
 	gem 'rails_12factor'
 end
 
-group: :doc 
+group :doc do
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
+end
